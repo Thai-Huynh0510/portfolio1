@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 const Home = () => {
   return (
     <div name = 'home' className = 'w-full h-screen bg-black'>
@@ -10,7 +11,8 @@ const Home = () => {
         <p className='text-[#8892b0] py-4 max-w-[700px]'> I'm currently focusing on my front-end,
         studying and working on my personal project </p>
         <div> 
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-white hover:text-black'>Learn more about me
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-white hover:text-black'>
+        <Link to= "school" smooth = {true} duration = {500}> Learn more about me </Link>
         <span className = 'group-hover:rotate-90 duration-300' >
         <HiArrowNarrowRight className = 'ml-2' />
         </span>
