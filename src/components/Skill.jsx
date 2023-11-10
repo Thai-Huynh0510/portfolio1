@@ -5,7 +5,7 @@ import react from '../assets/react.png'
 import Python from '../assets/Python.png'
 const Skill = () => {
   return (
-    <div name = 'skill' className='w-full h-screen bg-black text-white'>
+    <div name = 'skill' className='w-full h-screen bg-bg2 text-white'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className= 'text-center'>
                 <h1 className='text-4xl sm:text-7xl font-bold '>Skills</h1>

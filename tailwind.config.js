@@ -7,7 +7,13 @@ module.exports = {
   // Or if using `src` directory:
   "./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg' : "url('/src/assets/bg.jpg')",
+        'bg1' : "url('/src/assets/bg2.png')",
+        'bg2' : "url('/src/assets/bg3.jpg')"
+      }
+    },
   },
   plugins: [],
 }
