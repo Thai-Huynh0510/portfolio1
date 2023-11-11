@@ -11,7 +11,9 @@ module.exports = {
       backgroundImage: {
         'bg' : "url('/src/assets/bg.jpg')",
         'bg1' : "url('/src/assets/bg2.png')",
-        'bg2' : "url('/src/assets/bg3.jpg')"
+        'bg2' : "url('/src/assets/bg3.jpg')",
+        'bg3' : "url('/src/assets/bg4.png')",
+        'project': "url('/src/assets/project1.png')"
       }
     },
   },

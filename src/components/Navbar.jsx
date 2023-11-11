@@ -15,7 +15,9 @@ const Navbar = () => {
             </li>
             <li><Link to= "school" smooth = {true} duration = {500}>Degree</Link></li>
             <li><Link to= "skill" smooth = {true} duration = {500}>Skill</Link></li>
+            <li><Link to= "project" smooth = {true} duration = {500}>Projects</Link></li>
             <li><Link to= "contact" smooth = {true} duration = {500}>Contact</Link></li>
+           
           </ul>
   
 
@@ -28,6 +30,7 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link onClick={handleClick} to= "home" smooth = {true} duration = {500}>Home</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to= "school" smooth = {true} duration = {500}>Degree</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to= "skill" smooth = {true} duration = {500}>Skill</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to= "project" smooth = {true} duration = {500}>Project</Link></li>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to= "contact" smooth = {true} duration = {500}>Contact</Link></li>
         </ul>
         {/*social icon*/}
