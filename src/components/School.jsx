@@ -10,7 +10,7 @@ const School = () => {
         </div>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-10 text-white text-center'>
             <div >
-                <h1 className ='text-4xl font-bold'>Borough of Manhattan Community College</h1>
+                <h1 className ='text-4xl font-bold'>Borough of Manhattan College</h1>
             </div>
             <div >
                 <h1 className='text-4xl font-bold'>Hunter College</h1>
