@@ -29,3 +29,21 @@
         hsla(242,74%,61% 0.8)
     );
 }
+.talk-bubble {
+	margin: 30px;
+    display: inline-block;
+    position: relative;
+	width: 200px;
+	height: 100px;
+}
+.tri-right.btm-right:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: 60px;
+	bottom: -24px;
+	border: 12px solid;
+    border-color: white white transparent transparent;
+}

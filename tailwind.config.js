@@ -24,7 +24,7 @@ module.exports = {
             width: '0'
           },
           to: {
-            width: '60ch'
+            width: '80ch'
           },
         },
         blink: {
