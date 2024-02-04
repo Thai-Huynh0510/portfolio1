@@ -47,3 +47,18 @@
 	border: 12px solid;
     border-color: white white transparent transparent;
 }
+@keyframes floatUpDown {
+    0% {
+      transform: translateY(10px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+  
+  .animate-floatUpDown {
+    animation: floatUpDown 3s infinite;
+  }
