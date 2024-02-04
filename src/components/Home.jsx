@@ -2,8 +2,14 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import astro from '../assets/astro.gif';
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Home = () => {
+  AOS.init({
+    easing: 'ease-out-quart',
+    delay: 0,
+    duration: 750
+  })
   return (
     <div name="home" className="w-full h-screen bg-bg bg-cover">
       <div className="max-w-[1000px] mx-auto px-5 flex flex-col justify-center h-full text-[#FFFFD2]">
@@ -15,6 +21,7 @@ const Home = () => {
           I am committed to continuous learning, 
           <br/>eager to add more tools to my developer's arsenal. </span>
         </p>
+        <div data-aos='fade-up'>
         <div className='flex item-center justify-center'>
           <button className="talk-bubble tri-right btm-right text-white group border-2 px-6 py-3 flex items-center hover:bg-white hover:text-black animate-floatUpDown">
             <Link to="school" smooth={true}>
@@ -26,8 +33,9 @@ const Home = () => {
             <img
               src={astro}
               alt="astro"
-              style={{ maxWidth: '100%', maxHeight: '230px', width: 'auto', height: 'auto' }}
+              style={{ maxWidth: '100%', maxHeight: '250px', width: 'auto', height: 'auto' }}
             />
+            </div>
           </div>
       </div>
     </div>
