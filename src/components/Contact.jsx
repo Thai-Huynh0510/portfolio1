@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name= 'contact' className='w-full h-screen bg-bg2 flex justify-center items-center p-4' >
+    <div name= 'contact' className='w-full h-screen bg-bg1 flex justify-center items-center p-4' >
         <form method = "POST" action="https://getform.io/f/7da41f6b-04da-4b3c-8dd5-7895b45dcfb6" className='flex flex-col max-w-[600px] w-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-white text-white'> Contact</p>
